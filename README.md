@@ -19,7 +19,8 @@ devtools::install_github("AlexandraBurkitt/mypackage")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows what happens when you input your own
+name:
 
 ``` r
 library(mypackage)
@@ -33,20 +34,20 @@ hello("CATS")
 #>  ------ 
 #>     \   
 #>      \
-#>        _//| .-~~~-.
-#>      _/oo  }       }-@
-#>     ('')_  }       |
-#>      `--'| { }--{  }
-#>           //_/  /_/ [nosig]
-#> 
+#>      (   )
+#>   (   ) (
+#>    ) _   )
+#>     ( \_
+#>   _(_\ \)__
+#>  (____\ ___)) [nosig]
 ```
 
-Here is another example:
+Here is another example where no arguments are used to call the
+function:
 
 ``` r
 hello()
 #> Colors cannot be applied in this environment :( Try using a terminal or RStudio.
-#> 
 #> 
 #> 
 #>  ----- 
@@ -54,40 +55,9 @@ hello()
 #>  ------ 
 #>     \   
 #>      \
-#>                    ____
-#>                 _.' :  `._
-#>             .-.'`.  ;   .'`.-.
-#>    __      / : ___\ ;  /___ ; \      __
-#>   ,'_ ""--.:__;".-.";: :".-.":__;.--"" _`,
-#>   :' `.t""--.. '<@.`;_  ',@>` ..--""j.' `;
-#>        `:-.._J '-.-'L__ `-- ' L_..-;'
-#>           "-.__ ;  .-"  "-.  : __.-"
-#>              L ' /.------.\ ' J
-#>              "-.   "--"   .-"
-#>              __.l"-:_JL_;-";.__
-#>          .-j/'.;  ;""""  / .'\"-.
-#>          .' /:`. "-.:     .-" .';  `.
-#>       .-"  / ;  "-. "-..-" .-"  :    "-.
-#>   .+"-.  : :      "-.__.-"      ;-._   \
-#>   ; \  `.; ;                    : : "+. ;
-#>   :  ;   ; ;                    : ;  : \:
-#>   ;  :   ; :                    ;:   ;  :
-#>   : \  ;  :  ;                  : ;  /  ::
-#>   ;  ; :   ; :                  ;   :   ;:
-#>   :  :  ;  :  ;                : :  ;  : ;
-#>   ;\    :   ; :                ; ;     ; ;
-#>   : `."-;   :  ;              :  ;    /  ;
-#>  ;    -:   ; :              ;  : .-"   :
-#>   :\     \  :  ;            : \.-"      :
-#>   ;`.    \  ; :            ;.'_..--  / ;
-#>   :  "-.  "-:  ;          :/."      .'  :
-#>    \         \ :          ;/  __        :
-#>     \       .-`.\        /t-""  ":-+.   :
-#>      `.  .-"    `l    __/ /`. :  ; ; \  ;
-#>        \   .-" .-"-.-"  .' .'j \  /   ;/
-#>         \ / .-"   /.     .'.' ;_:'    ;
-#>   :-""-.`./-.'     /    `.___.'
-#>                \ `t  ._  /  bug
-#>                 "-.t-._:'
+#>      _[_]_
+#>       (")
+#>   >--( : )--<
+#>     (__:__) [nosig]
 #> 
 ```

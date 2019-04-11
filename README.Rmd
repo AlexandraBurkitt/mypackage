@@ -29,7 +29,7 @@ devtools::install_github("AlexandraBurkitt/mypackage")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows what happens when you input your own name:
 
 ```{r example}
 library(mypackage)
@@ -37,7 +37,7 @@ library(mypackage)
 hello("CATS")
 ```
 
-Here is another example:
+Here is another example where no arguments are used to call the function:
 
 ```{r example2}
 hello()
