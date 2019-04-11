@@ -14,3 +14,5 @@ Imports:
     cowsay
 Suggests: 
     testthat
+URL: https://github.com/AlexandraBurkitt/mypackage
+BugReports: https://github.com/AlexandraBurkitt/mypackage/issues
