@@ -47,7 +47,14 @@
   <a href="reference/index.html">Reference</a>
 </li>
       </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+  <a href="https://github.com/AlexandraBurkitt/mypackage">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
 </div>
 <!--/.nav-collapse -->
   </div>
@@ -68,38 +75,69 @@
 <a href="#mypackage" class="anchor"></a>mypackage</h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
-<p>The goal of mypackage is to …</p>
+<p>The goal of mypackage is to generate a talking animal!</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the released version of mypackage from <a href="https://CRAN.R-project.org">CRAN</a> with:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/install.packages">install.packages</a></span>(<span class="st">"mypackage"</span>)</a></code></pre></div>
+<p>You can install the released version of mypackage from github with:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"AlexandraBurkitt/mypackage"</span>)</a></code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <p>This is a basic example which shows you how to solve a common problem:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(mypackage)</a>
-<a class="sourceLine" id="cb2-2" title="2"><span class="co">## basic example code</span></a></code></pre></div>
-<p>What is special about using <code>README.Rmd</code> instead of just <code>README.md</code>? You can include R chunks like so:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/summary">summary</a></span>(cars)</a>
-<a class="sourceLine" id="cb3-2" title="2"><span class="co">#&gt;      speed           dist       </span></a>
-<a class="sourceLine" id="cb3-3" title="3"><span class="co">#&gt;  Min.   : 4.0   Min.   :  2.00  </span></a>
-<a class="sourceLine" id="cb3-4" title="4"><span class="co">#&gt;  1st Qu.:12.0   1st Qu.: 26.00  </span></a>
-<a class="sourceLine" id="cb3-5" title="5"><span class="co">#&gt;  Median :15.0   Median : 36.00  </span></a>
-<a class="sourceLine" id="cb3-6" title="6"><span class="co">#&gt;  Mean   :15.4   Mean   : 42.98  </span></a>
-<a class="sourceLine" id="cb3-7" title="7"><span class="co">#&gt;  3rd Qu.:19.0   3rd Qu.: 56.00  </span></a>
-<a class="sourceLine" id="cb3-8" title="8"><span class="co">#&gt;  Max.   :25.0   Max.   :120.00</span></a></code></pre></div>
-<p>You’ll still need to render <code>README.Rmd</code> regularly, to keep <code>README.md</code> up-to-date.</p>
-<p>You can also embed plots, for example:</p>
-<p><img src="reference/figures/README-pressure-1.png" width="100%"></p>
-<p>In that case, don’t forget to commit and push the resulting figure files, so they display on GitHub!</p>
+<a class="sourceLine" id="cb2-2" title="2"><span class="co">## basic example code</span></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="kw"><a href="reference/hello.html">hello</a></span>(<span class="st">"CATS"</span>)</a>
+<a class="sourceLine" id="cb2-4" title="4"><span class="co">#&gt; Colors cannot be applied in this environment :( Try using a terminal or RStudio.</span></a>
+<a class="sourceLine" id="cb2-5" title="5"><span class="co">#&gt; </span></a>
+<a class="sourceLine" id="cb2-6" title="6"><span class="co">#&gt; </span></a>
+<a class="sourceLine" id="cb2-7" title="7"><span class="co">#&gt;  ----- </span></a>
+<a class="sourceLine" id="cb2-8" title="8"><span class="co">#&gt; Hello CATS from Alexandra! </span></a>
+<a class="sourceLine" id="cb2-9" title="9"><span class="co">#&gt;  ------ </span></a>
+<a class="sourceLine" id="cb2-10" title="10"><span class="co">#&gt;     \   </span></a>
+<a class="sourceLine" id="cb2-11" title="11"><span class="co">#&gt;      \</span></a>
+<a class="sourceLine" id="cb2-12" title="12"><span class="co">#&gt;    __</span></a>
+<a class="sourceLine" id="cb2-13" title="13"><span class="co">#&gt;    / \</span></a>
+<a class="sourceLine" id="cb2-14" title="14"><span class="co">#&gt;    | |</span></a>
+<a class="sourceLine" id="cb2-15" title="15"><span class="co">#&gt;    @ @</span></a>
+<a class="sourceLine" id="cb2-16" title="16"><span class="co">#&gt;   || ||</span></a>
+<a class="sourceLine" id="cb2-17" title="17"><span class="co">#&gt;   || ||</span></a>
+<a class="sourceLine" id="cb2-18" title="18"><span class="co">#&gt;   |\_/|</span></a>
+<a class="sourceLine" id="cb2-19" title="19"><span class="co">#&gt;   \___/ GB</span></a></code></pre></div>
+<p>Here is another example:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw"><a href="reference/hello.html">hello</a></span>()</a>
+<a class="sourceLine" id="cb3-2" title="2"><span class="co">#&gt; Colors cannot be applied in this environment :( Try using a terminal or RStudio.</span></a>
+<a class="sourceLine" id="cb3-3" title="3"><span class="co">#&gt; </span></a>
+<a class="sourceLine" id="cb3-4" title="4"><span class="co">#&gt; </span></a>
+<a class="sourceLine" id="cb3-5" title="5"><span class="co">#&gt;  ----- </span></a>
+<a class="sourceLine" id="cb3-6" title="6"><span class="co">#&gt; Hello world from Alexandra! </span></a>
+<a class="sourceLine" id="cb3-7" title="7"><span class="co">#&gt;  ------ </span></a>
+<a class="sourceLine" id="cb3-8" title="8"><span class="co">#&gt;     \   </span></a>
+<a class="sourceLine" id="cb3-9" title="9"><span class="co">#&gt;      \</span></a>
+<a class="sourceLine" id="cb3-10" title="10"><span class="co">#&gt;    __</span></a>
+<a class="sourceLine" id="cb3-11" title="11"><span class="co">#&gt;    / \</span></a>
+<a class="sourceLine" id="cb3-12" title="12"><span class="co">#&gt;    | |</span></a>
+<a class="sourceLine" id="cb3-13" title="13"><span class="co">#&gt;    @ @</span></a>
+<a class="sourceLine" id="cb3-14" title="14"><span class="co">#&gt;   || ||</span></a>
+<a class="sourceLine" id="cb3-15" title="15"><span class="co">#&gt;   || ||</span></a>
+<a class="sourceLine" id="cb3-16" title="16"><span class="co">#&gt;   |\_/|</span></a>
+<a class="sourceLine" id="cb3-17" title="17"><span class="co">#&gt;   \___/ GB</span></a></code></pre></div>
 </div>
 </div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
-    <div class="license">
+    <div class="links">
+<h2>Links</h2>
+<ul class="list-unstyled">
+<li>Browse source code at <br><a href="https://github.com/AlexandraBurkitt/mypackage">https://​github.com/​AlexandraBurkitt/​mypackage</a>
+</li>
+<li>Report a bug at <br><a href="https://github.com/AlexandraBurkitt/mypackage/issues">https://​github.com/​AlexandraBurkitt/​mypackage/​issues</a>
+</li>
+</ul>
+</div>
+<div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
