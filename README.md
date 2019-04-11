@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-The goal of mypackage is to …
+The goal of mypackage is to generate a talking animal\!
 
 ## Installation
 
@@ -24,28 +24,70 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(mypackage)
 ## basic example code
+hello("CATS")
+#> Colors cannot be applied in this environment :( Try using a terminal or RStudio.
+#> 
+#> 
+#>  ----- 
+#> Hello CATS from Alexandra! 
+#>  ------ 
+#>     \   
+#>      \
+#>        _//| .-~~~-.
+#>      _/oo  }       }-@
+#>     ('')_  }       |
+#>      `--'| { }--{  }
+#>           //_/  /_/ [nosig]
+#> 
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+Here is another example:
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+hello()
+#> Colors cannot be applied in this environment :( Try using a terminal or RStudio.
+#> 
+#> 
+#> 
+#>  ----- 
+#> Hello world from Alexandra! 
+#>  ------ 
+#>     \   
+#>      \
+#>                    ____
+#>                 _.' :  `._
+#>             .-.'`.  ;   .'`.-.
+#>    __      / : ___\ ;  /___ ; \      __
+#>   ,'_ ""--.:__;".-.";: :".-.":__;.--"" _`,
+#>   :' `.t""--.. '<@.`;_  ',@>` ..--""j.' `;
+#>        `:-.._J '-.-'L__ `-- ' L_..-;'
+#>           "-.__ ;  .-"  "-.  : __.-"
+#>              L ' /.------.\ ' J
+#>              "-.   "--"   .-"
+#>              __.l"-:_JL_;-";.__
+#>          .-j/'.;  ;""""  / .'\"-.
+#>          .' /:`. "-.:     .-" .';  `.
+#>       .-"  / ;  "-. "-..-" .-"  :    "-.
+#>   .+"-.  : :      "-.__.-"      ;-._   \
+#>   ; \  `.; ;                    : : "+. ;
+#>   :  ;   ; ;                    : ;  : \:
+#>   ;  :   ; :                    ;:   ;  :
+#>   : \  ;  :  ;                  : ;  /  ::
+#>   ;  ; :   ; :                  ;   :   ;:
+#>   :  :  ;  :  ;                : :  ;  : ;
+#>   ;\    :   ; :                ; ;     ; ;
+#>   : `."-;   :  ;              :  ;    /  ;
+#>  ;    -:   ; :              ;  : .-"   :
+#>   :\     \  :  ;            : \.-"      :
+#>   ;`.    \  ; :            ;.'_..--  / ;
+#>   :  "-.  "-:  ;          :/."      .'  :
+#>    \         \ :          ;/  __        :
+#>     \       .-`.\        /t-""  ":-+.   :
+#>      `.  .-"    `l    __/ /`. :  ; ; \  ;
+#>        \   .-" .-"-.-"  .' .'j \  /   ;/
+#>         \ / .-"   /.     .'.' ;_:'    ;
+#>   :-""-.`./-.'     /    `.___.'
+#>                \ `t  ._  /  bug
+#>                 "-.t-._:'
+#> 
 ```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub\!
